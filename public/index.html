@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Embed Google Apps Script</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .responsive-iframe-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+
+      .responsive-iframe-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none; /* Removes default iframe border */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="responsive-iframe-container">
+      <iframe
+        src="https://script.google.com/macros/s/AKfycbwh8_3lCUQQ2XR-EmDy4t5t09aDc4MpiOdG3kpW5l33b3NRld8qVVm3kGq36CWnSyGW/exec"
+        frameborder="0"
+        scrolling="no"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </body>
+</html>
